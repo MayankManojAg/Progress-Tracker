@@ -20,6 +20,12 @@ export interface DayRecord {
   isFilled: boolean;
 }
 
+export interface MonthlyGoal {
+  month: string;
+  studyTarget: number;
+  wasteLimit: number;
+}
+
 export type HabitKey = keyof DayHabits;
 export type MetricKey = keyof DayMetrics;
 
